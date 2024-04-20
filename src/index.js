@@ -9,7 +9,7 @@ const App = () => (
     <h3>{timelineItems.length} timeline items to render</h3>
 
     <div>
-  <Timeline />
+      <Timeline timelineItems={timelineItems} />
     </div>
   </div>
 );
